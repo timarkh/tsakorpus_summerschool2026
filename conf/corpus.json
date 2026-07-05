@@ -176,13 +176,7 @@
                     "value": ""
                 },
                 {
-                    "name": "year_from",
-                    "text": "",
-                    "type": "input_number",
-                    "value": ""
-                },
-                {
-                    "name": "year_to",
+                    "name": "year",
                     "text": "",
                     "type": "input_number",
                     "value": ""
@@ -206,10 +200,7 @@
         "author",
         "title",
         "genre",
-        "year_from",
-        "year_to",
-        "year",
-        "issue"
+        "year"
     ],
     "wf_lowercase": true,
     "word_fields": [

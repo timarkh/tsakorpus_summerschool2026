@@ -5,7 +5,7 @@
     "filename",
     "author",
     "title",
-    "date",
+    "year",
     "genre"
   ],
   "languages": ["armenian"],
