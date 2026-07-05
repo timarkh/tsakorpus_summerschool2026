@@ -35,7 +35,7 @@ rm -rf corpus/cg_disamb
 rm -rf corpus/json
 
 echo "The JSON files are prepared, moved to corpus/armenian_artsakh_interviews and ready for indexing. They will be indexed in the Elasticsearch database. This may take some time."
-cd indexator
+cd ../indexator
 python3.9 indexator.py -y y
 
 END_TIME="$(date -u +%s)"
