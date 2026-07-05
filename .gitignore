@@ -9,7 +9,6 @@ search/img/**
 search/corpus_html/**
 src_convertors/error.log
 src_convertors/error_*.log
-src_convertors/corpus/txt/**/*.txt
 src_convertors/corpus/txt/**/*.json
 src_convertors/corpus/json/**
 src_convertors/corpus/json_src/**
@@ -66,4 +65,3 @@ error_reports.txt
 *.sqlite
 *.sqlite-journal
 elastic_pwd
-src_convertors/corpus/txt/*.txt
