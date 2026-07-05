@@ -15,9 +15,9 @@ mv ../wordlist.csv wordlist.csv
 cp ../analyze_armenian_wordlist.py .
 echo "Source files moved."
 python3 analyze_armenian_wordlist.py
-mv wordlist_analyzed.txt ../wordlist.csv-parsed.txt
-mv wordlist_unanalyzed_freq.txt ../wordlist.csv-unparsed.txt
-echo "Armenian word list analyzed."
+mv analyzed.txt ../wordlist.csv-parsed.txt
+mv unanalyzed.txt ../wordlist.csv-unparsed.txt
+echo "Word list analyzed."
 cd ..
 rm -rf uniparser-grammar-eastern-armenian
 cd ..
