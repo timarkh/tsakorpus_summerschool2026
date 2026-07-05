@@ -21,7 +21,7 @@ def repl_stem(m):
         if stemEw not in stemVars:
             stemsEw.add(stemEw)
     stemVars |= stemsEw
-    stemsV = set()
+    stemsIu = set()
     for stemVar in stemVars:
         stemIu = stemVar.replace('իւ', 'յու')
         if stemIu not in stemVars:
