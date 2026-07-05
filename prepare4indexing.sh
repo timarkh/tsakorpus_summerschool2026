@@ -33,6 +33,11 @@ mv corpus/json_disamb ../corpus/armenian_summerschool2026
 rm -rf corpus/cg
 rm -rf corpus/cg_disamb
 rm -rf corpus/json
+
+echo "The JSON files are prepared, moved to corpus/armenian_artsakh_interviews and ready for indexing. They will be indexed in the Elasticsearch database. This may take some time."
+cd indexator
+python3.9 indexator.py -y y
+
 END_TIME="$(date -u +%s)"
 ELAPSED_TIME="$(($END_TIME-$START_TIME))"
 echo "Corpus files prepared in $ELAPSED_TIME seconds, finishing now."

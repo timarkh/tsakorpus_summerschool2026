@@ -18,7 +18,6 @@
     "fulltext_view_enabled": true,
     "generate_dictionary": false,
     "gloss_search_enabled": false,
-    "partitions": 30,
     "images": false,
     "input_format": "json",
     "input_methods": [
