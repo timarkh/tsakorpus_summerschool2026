@@ -37,6 +37,7 @@
     "»",
     "։"
   ],
+  "word_internal_punct": ["՞", "՜", "՛"],
   "max_preferable_sent_len": 50,
   "sent_end_if_needed_punc": "[,՝․]",
   "newline_ends_sent": true,
