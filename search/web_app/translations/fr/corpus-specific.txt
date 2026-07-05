@@ -1,1 +1,1 @@
-corpus_title	(Veuillez insérer le nom du corpus ici)
+corpus_title	Summer school corpus

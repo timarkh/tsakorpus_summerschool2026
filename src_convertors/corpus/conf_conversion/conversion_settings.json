@@ -1,0 +1,46 @@
+{
+  "meta_filename": "meta.csv",
+  "meta_fields":
+  [
+    "filename",
+    "author",
+    "title",
+    "date",
+    "genre"
+  ],
+  "languages": ["armenian"],
+  "corpus_type": "main",
+  "meta_files_ext": true,
+  "meta_files_dir": true,
+  "meta_files_case_sensitive": true,
+  "parsed_wordlist_filename": "wordlist.csv-parsed.txt",
+  "parsed_wordlist_format": "xml_rnc",
+  "cg_filename": {"armenian": "armenian_disambiguation.cg3"},
+  "cg_disambiguate": true,
+  "json_indent": 1,
+  "convert_quotes": true,
+  "gzip": false,
+  "left_quot_mark": "«",
+  "right_quot_mark": "»",
+  "sent_end_punc": "(?:[.!?;;։]+(?:[)\\]}>/»]|$)|\\\\n)",
+  "sent_start": "^[A-ZÄÖÜА-ЯЁӤӦӴӞӜԱ-Ֆ]",
+  "non_word_internal_punct": [
+    "\n",
+    "\\n",
+    ",",
+    "°",
+    "/",
+    "“",
+    "”",
+    "\"",
+    "«",
+    "»",
+    "։"
+  ],
+  "max_preferable_sent_len": 50,
+  "sent_end_if_needed_punc": "[,՝․]",
+  "newline_ends_sent": true,
+  "abbreviations": ["Ա", "Բ", "Գ", "Դ", "Ե", "Զ", "Է", "Ը", "Թ", "Ժ", "Ի", "Լ", "Խ", "Ծ", "Կ", "Հ", "Ձ", "Ղ", "Ճ", "Մ", "Յ", "Ն", "Շ", "Ո", "Չ", "Պ", "Ջ", "Ռ", "Ս", "Վ", "Տ", "Ր", "Ց", "Ւ", "Փ", "Ք", "Օ", "Ֆ", "Ու", "թ", "թթ", "քմ", "մլն", "սբ", "պր", "դոկտ", "հոգշ", "քհնյ", "աԺ", "արժ", "արք", "գերշ", "եպս", "շրջ", "սրբ", "վրդ", "տոքթ", "պրն", "աբղ", "ընկ", "կեդր", "եղբ"],
+  "split_tokens": ["\\b([մՄ])([՚'])([Ա-Ֆ՜՞-և][Ա-Ֆ՜՞-և0-9'՚՛_-]*[Ա-Ֆ՜՞-և])"],
+  "add_contextual_flags": true
+}
